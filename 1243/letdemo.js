@@ -1,7 +1,9 @@
 let a= 1000;
 
 //the let inside for-block is local to 'for' block only
-for(let a = 10;a<100;a=a+10)
+
+
+for(let a = 10;a<=50;a=a+10)
 {
     console.log("a inside for = "+a);
 }
