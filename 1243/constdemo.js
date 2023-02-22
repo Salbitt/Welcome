@@ -1,8 +1,7 @@
 const pi = 3.142;
-var maxr = 52;
-var steps = 12;
+var maxr = 5;
 
-for(var radius = 1;radius<=maxr;radius+=steps)
+for(var radius = 1;radius<=maxr;radius+=1)
 {
-    console.log('Radius: '+radius+" cm ; Area of circle: "+(pi*radius*radius)+" cm2 ; Perimeter: "+2*pi*radius+" cm");
+    console.log('Radius: '+radius+" cm ; Area of circle: "+(pi*radius*radius));
 }
