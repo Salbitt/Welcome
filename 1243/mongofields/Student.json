@@ -1,9 +1,0 @@
-[{
-  "_id": {
-    "$oid": "63f5a287573dcb26d23bdd9e"
-  },
-  "name": "abc",
-  "roll_no": {
-    "$numberDecimal": "1243"
-  }
-}]
